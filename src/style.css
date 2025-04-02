@@ -3,12 +3,12 @@
 }
 
 html {
-  font-family: Roboto, sans-serif;
   font-size: 12px;
 }
 
 body {
   margin: 0;
+  font-family: Roboto, sans-serif;
 }
 
 .header {
@@ -17,12 +17,6 @@ body {
   justify-content: space-between;
   width: 100%;
   box-sizing: border-box;
-}
-
-li {
-  align-items: center;
-  position: relative;
-  height: 15px;
 }
 
 .nav {
@@ -45,7 +39,6 @@ li {
   margin-top: 0;
   margin-bottom: 0;
   padding: 0;
-  height: 60px;
 }
 
 .nav__link {
@@ -53,18 +46,20 @@ li {
   text-decoration: none;
   align-items: center;
   color: black;
-  line-height: 14.06px;
+  line-height: 15px;
   margin: 0 10px;
   text-transform: uppercase;
   padding: 0;
   align-content: center;
+  height: 60px;
+  position: relative;
 }
 
 .nav__link:hover {
   color: var(--color);
 }
 
-.nav__link[data-qa ='hover'] {
+.nav__link[data-qa='hover'] {
   color: var(--color);
 }
 
